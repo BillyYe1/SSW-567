@@ -10,4 +10,4 @@ jobs:
           command: pip install requests
       - run:
           name: Run tests
-          command: python GitHubApi567-hw3a/hw03a_test.py
+          command: python HW03/HW03a/hw03a_test.py
