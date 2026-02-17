@@ -9,7 +9,7 @@ class TestGitHubInfo(unittest.TestCase):
         self.assertEqual(result, expected)
 
     def testGetInfoInvalidUser(self):
-        result = getInfo("InvalidUser!")
+        result = getInfo("InvalidUser!!")
         expected = "Error: 404"
         self.assertEqual(result, expected)
 
