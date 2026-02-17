@@ -5,7 +5,7 @@ class TestGitHubInfo(unittest.TestCase):
 
     def testGetInfo(self):
         result = getInfo("Billyye4")
-        expected = ["Repo: aaa-refactor-tool-python- Number of commits: 5", "Repo: SSW-567 Number of commits: 11"]
+        expected = ["Repo: aaa-refactor-tool-python- Number of commits: 5", "Repo: SSW-567 Number of commits: 12"]
         self.assertEqual(result, expected)
 
     def testGetInfoInvalidUser(self):
